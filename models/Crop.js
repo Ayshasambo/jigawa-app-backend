@@ -1,0 +1,95 @@
+const mongoose = require('mongoose');
+
+const cropSchema = new mongoose.Schema({
+    lga:{
+        type:String
+    },
+    crop:[{
+        name:{
+          type:String
+        },
+
+        variety:[{
+            name:{
+               type:String
+            },
+            salientfeature:{
+               type:String
+            },
+            potentialyield:{
+               type:String
+            },
+            lifecycle:{
+               type: String
+            },
+            adaptation:{
+               type:String
+            },
+            tilleringcapacity:{
+               type:String
+            },
+            plantheight:{
+               type:String
+            },
+            maturity:{
+               type:String
+            },
+            daystomaturity:{
+               type:String
+            },
+            diseasereaction:{
+               type:String
+            },
+            huskcoloratmaturity:{
+               type:String
+            },
+            graintype:{
+               type:String
+            },
+            outstandingcharacteristics:{
+               type:String
+            },
+            Reproductionorripening:{
+               type:String
+            },
+            establishment:{
+               type:String
+            },
+            grainfilling:{
+               type:String
+            },
+            spcing:{
+                type:String
+            },
+            plantingseason:{
+               type:String
+            },
+            seedrate:{
+               type:String
+            },
+            duration:{
+                type:String
+            },
+            yield:{
+                type:String
+            },
+            plantingwindow:{
+               type:String
+            },
+            onset:{
+               type:String
+            },
+            vegetative:{
+               type:String
+            },
+            flowering:{
+              type:String
+            },
+            harvest:{
+              type:String
+            }
+        }] 
+    }]
+});
+
+module.exports = mongoose.model("Crop", cropSchema);
