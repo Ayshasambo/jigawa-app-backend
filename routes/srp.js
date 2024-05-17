@@ -5,9 +5,9 @@ const Srp = require('../models/Srp.js')
 // POST a srp
 router.post('/', async (req, res) => {
     try {
-      const {lga} = req.body;
+      const {name, onset, seasonend, seasonlength, annualrainfall} = req.body;
       const newSrp = new Srp({ 
-         lga
+        name, onset, seasonend, seasonlength, annualrainfall
        });
       await newSrp.save();
       res.status(201).json(newSrp);
