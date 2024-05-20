@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 const srpSchema = new mongoose.Schema({
     
     
-   name:{
-        type: String
+   lga:{
+        type: mongoose.Schema.Types.ObjectId
     },
     onset:{
         type: String

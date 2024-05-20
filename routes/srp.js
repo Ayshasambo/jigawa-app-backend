@@ -1,14 +1,16 @@
 const express = require('express')
 const router = express.Router()
 const Srp = require('../models/Srp.js')
+const Lga = require('../models/Lga.js')
 
 // POST a srp
 router.post('/', async (req, res) => {
+  const {lga, onset, seasonend, seasonlength, annualrainfall} = req.body;
     try {
-      const {name, onset, seasonend, seasonlength, annualrainfall} = req.body;
+      const populatedLga = await Lga.findById(lga);
       const newSrp = new Srp({ 
-        name, onset, seasonend, seasonlength, annualrainfall
-       });
+        onset, seasonend, seasonlength, annualrainfall, lga:populatedLga
+      });
       await newSrp.save();
       res.status(201).json(newSrp);
     }catch (error) {

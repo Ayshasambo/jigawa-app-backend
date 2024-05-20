@@ -1,0 +1,200 @@
+
+
+
+
+
+
+
+{
+    "lga": [
+      {
+        "name": "Auyo",
+        "onset": "18-Jun",
+        "seasonend": "19-Oct",
+        "seasonlength": "104",
+        "annualrainfall": "603"
+      },
+      {
+        "name": "Babura",
+        "onset": "23-Jun",
+        "seasonend": "16-Oct",
+        "seasonlength": "97",
+        "annualrainfall": "605"
+      },
+      {
+       "name": "Biriniwa",
+        "onset": "24-Jun",
+        "seasonend": "15-Oct",
+        "seasonlength": "95", 
+        "annualrainfall": "608"
+      },
+      {
+        "name": "Birni Kudu",
+        "onset": "07-Jun",
+        "seasonend": "25-Oct",
+        "seasonlength": "122",
+        "annualrainfall": "828"
+      },
+      {
+        "name": "Buji",
+        "onset": "08-Jun",
+        "seasonend": "25-Oct",
+        "seasonlength": "121",
+        "annualrainfall": "827"
+      },
+      {
+        "name": "Dutse",
+        "onset": "11-Jun",
+        "seasonend": "23-Oct",
+        "seasonlength": "116",
+        "annualrainfall": "814"
+      },
+      {
+        "name": "Gagarawa",
+        "onset": "20-Jun",
+        "seasonend": "17-Oct",
+        "seasonlength": "101",
+        "annualrainfall": "603"
+      },
+      {
+        "name": "Garki",
+        "onset": "19-Jun",
+        "seasonend": "18-Oct",
+        "seasonlength": "103",
+        "annualrainfall": "603"
+      },
+      {
+        "name": "Gumel",
+        "onset": "22-Jun",
+        "seasonend": "16-Oct",
+        "seasonlength": "99",
+        "annualrainfall": "605"
+      },
+      {
+        "name": "Guri",
+        "onset": "22-Jun",
+        "seasonend": "16-Oct",
+        "seasonlength": "98",
+        "annualrainfall": "605"
+      },
+      {
+        "name": "Gwaram",
+        "onset": "04-Jun",
+        "seasonend": "27-Oct",
+        "seasonlength": "127",
+        "annualrainfall": "745"
+      },
+      {
+        "name": "Gwiwa",
+        "onset": "23-Jun",
+        "seasonend": "16-Oct",
+        "seasonlength": "96",
+        "annualrainfall": "606"
+      },
+      {
+        "name": "Hadejia",
+        "onset": "20-Jun",
+        "seasonend": "18-Oct",
+        "seasonlength": "102",
+        "annualrainfall": "603"
+      },
+      {
+        "name": "Jahun",
+        "onset": "15-Jun",
+        "seasonend": "21-Oct",
+        "seasonlength": "110",
+        "annualrainfall": "606"
+      },
+      {
+        "name": "Kafin Hausa",
+        "onset": "16-Jun",
+        "seasonend": "20-Oct",
+        "seasonlength": "108",
+        "annualrainfall": "604"
+      },
+      {
+        "name": "Kaugama",
+        "onset": "20-Jun",
+        "seasonend": "17-Oct",
+        "seasonlength": "101",
+        "annualrainfall": "603"
+      },
+      {
+        "name": "Kazaure",
+        "onset": "22-Jun",
+        "seasonend": "16-Oct",
+        "seasonlength": "98",
+        "annualrainfall": "605"
+      },
+      {
+        "name": "Kiri Kasamma",
+        "onset": "21-Jun",
+        "seasonend": "17-Oct",
+        "seasonlength": "100",
+        "annualrainfall": "604"
+      },
+      {
+        "name": "Kiyawa",
+        "onset": "12-Jun",
+        "seasonend": "22-Oct",
+        "seasonlength": "115",
+        "annualrainfall": "712"
+      },
+      {
+        "name": "Maigatari",
+        "onset": "23-Jun",
+        "seasonend": "15-Oct",
+        "seasonlength": "96",
+        "annualrainfall": "607"
+      },
+      {
+        "name": "Malam Madori",
+        "onset": "21-Jun",
+        "seasonend": "17-Oct",
+        "seasonlength": "100",
+        "annualrainfall": "604"
+      },
+      {
+        "name": "Miga",
+        "onset": "17-Jun",
+        "seasonend": "20-Oct",
+        "seasonlength": "107",
+        "annualrainfall": "604"
+      },
+      {
+        "name": "Ringim",
+        "onset": "16-Jun",
+        "seasonend": "20-Oct",
+        "seasonlength": "108",
+        "annualrainfall": "605"
+      },
+      {
+        "name": "Roni",
+        "onset": "22-Jun",
+        "seasonend": "16-Oct",
+        "seasonlength": "98",
+        "annualrainfall": "605"
+      },
+      {
+        "name": "Sule-Tankarkar",
+        "onset": "23-Jun",
+        "seasonend": "16-Oct",
+        "seasonlength": "97",
+        "annualrainfall": "606"
+      },
+      {
+        "name": "Taura",
+        "onset": "17-Jun",
+        "seasonend": "19-Oct",
+        "seasonlength": "106",
+        "annualrainfall": "604"
+      },
+      {
+        "name": "Yankwashi",
+        "onset": "23-Jun",
+        "seasonend": "15-Oct",
+        "seasonlength": "96",
+        "annualrainfall": "607"
+      }
+    ]
+}

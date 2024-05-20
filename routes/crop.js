@@ -1,13 +1,15 @@
 const express = require('express')
 const router = express.Router()
 const Crop = require('../models/Crop.js')
+const Lga = require('../models/Lga.js')
 
 // POST a contactUs
 router.post('/', async (req, res) => {
+  const {lga, crop} = req.body;
     try {
-      const {lga, crop} = req.body;
+    const populatedLga = await Lga.findById(lga)
       const newCrop = new Crop({ 
-         lga, crop
+         lga:populatedLga, crop
        });
       await newCrop.save();
       res.status(201).json(newCrop);

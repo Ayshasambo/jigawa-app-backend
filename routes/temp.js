@@ -1,14 +1,16 @@
 const express = require('express')
 const router = express.Router()
 const Temp = require('../models/Temp.js')
+const Lga = require('../models/Lga.js')
 
 // POST a temp
 router.post('/', async (req, res) => {
+  const {lga, january, february, march, april, may} = req.body;
     try {
-      const {name, january, february, march, april, may} = req.body;
+      const populatedLga = await Lga.findById(lga)
       const newTemp = new Temp({ 
-        name, january, february, march, april, may
-       });
+        lga:populatedLga, january, february, march, april, may
+      });
       await newTemp.save();
       res.status(201).json(newTemp);
     }catch (error) {
@@ -52,7 +54,5 @@ router.delete('/:id', async (req, res) => {
       res.status(500).json({ message: error.message });
     }
 });
-
-  
 
 module.exports = router

@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 const cropSchema = new mongoose.Schema({
     lga:{
-        type:String
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"lga"
     },
     crop:[{
         name:{

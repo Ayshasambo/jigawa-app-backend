@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
-//temp schema
 const tempSchema = new mongoose.Schema({
-    name:{
-      type:String
+    lga:{
+      type:mongoose.Schema.Types.ObjectId,
+      ref:"Lga"
     },
     january:{
         day:{
@@ -29,7 +29,7 @@ const tempSchema = new mongoose.Schema({
             type: String
         }
     },
-    April:{
+    april:{
         day:{
             type: String
         },
@@ -48,3 +48,4 @@ const tempSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('Temp', tempSchema);
+
